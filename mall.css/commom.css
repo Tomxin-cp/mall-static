@@ -1,0 +1,21 @@
+body{
+    font-size: 12px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    columns: #1890ff;
+}
+.contian{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-1{
+    width: 210px;
+}
+.right-4{
+    width: 862px;
+}
