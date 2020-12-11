@@ -24,18 +24,23 @@ header{
     height: 110px;
     background-color: #ffffff;
     color: #52c41a;
+    border-bottom: 1px solid #52c41a;
 }
 header .right-4{
-    float: right;
+    position: relative;
+}
+.contian{
+    height: 110px;
+    line-height: 30px;
 }
 .logo{
     font-size: 30px;
     font-weight: bold;
     line-height: 110px;
-    float: left;
 }
 .srchbox{
     float: left;
+    margin-top: 20px;
 }
 .srchbox #srchtext{
     width: 415px;
@@ -55,24 +60,110 @@ header .srchbtn{
     text-align: center;
     line-height: 42px;
     float: left;
+    margin-top: 20px;
 }
-.headnav{
-    float: left;
+header .srchbtn:hover{
+    opacity: 0.7;
+}
+.headlistitem{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+.headnav li{
+    font-size: 16px;
+    display: inline;
+    margin-right: 20px;
+}
+.headnav-list:active{
+    color: #51c42a;
 }
 /* 焦点区域
 ---------------------------------------------------------------- */
 .focus{
     height: 440px;
-    background-color: salmon;
+    background-color:#eeeeee;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+.focus .contian{
+    height: 440px;
+}
+.focus .left-1{
+    background-color: #ffffff;
+    padding-top:  20px;
+    padding-bottom: 20px;
+}
+.focus-list{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.focus-list-item{
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+}
+.focus-list-item:hover{
+    background-color:#aaa;
+    color: #4fa9ee;
+}
+.focus .contian .right-4{
+    width: 862px;
+    height: 440px;
+    position: relative;
+}
+.imgbox{
+    margin-top: -50px;
+}
+.imgbox img{
+    width: 862px;
+    height: 440px;
+}
+.focus-btn{
+    width: 55px;
+    height: 50px;
+    font-size: 50px;
+    color: #007aff;
+    line-height: 50px;
+}
+.focus-btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    margin-top: -25px;
+}
+.focus-btn-right{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-top: -25px;
+}
+.focus-number{
+    margin-left: auto;
+    margin-right: auto;
+}
+.focus-number-list{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    float: left;
+    margin-left: 10px;
+}
+/* 焦点区域
+---------------------------------------------------------------- */
 .hot{
     height: 300px;
-    background-color: seagreen;
+    background-color: red;
 }
+/* 焦点区域
+---------------------------------------------------------------- */
 .floor{
     height: 300px;
     background-color:skyblue;
 }
+/* 焦点区域
+---------------------------------------------------------------- */
 .footer{
     height: 250px;
     background-color: #2f2f2f

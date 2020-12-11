@@ -15,7 +15,19 @@ a:hover{
 }
 .left-1{
     width: 210px;
+    float: left;
 }
 .right-4{
     width: 862px;
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0px;
+}
+.clearfix{
+    *zoom:1;
 }
