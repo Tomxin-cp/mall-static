@@ -14,7 +14,7 @@
     display: inline;
     margin-right: 20px;
 }
-.contian{
+.top .contian{
     height: 30px;
     line-height: 30px;
 }
@@ -29,7 +29,7 @@ header{
 header .right-4{
     position: relative;
 }
-.contian{
+header .contian{
     height: 110px;
     line-height: 30px;
 }
@@ -98,14 +98,16 @@ header .srchbtn:hover{
     font-size: 16px;
     margin-left: 10px;
 }
+.focus-list li:hover{
+    background-color:#aaa;
+}
 .focus-list-item{
     display: block;
     width: 200px;
     margin-top: 10px;
 }
-.focus-list-item:hover{
-    background-color:#aaa;
-    color: #4fa9ee;
+.focus-list-item span:hover{
+    color: #007aff;
 }
 .focus .contian .right-4{
     width: 862px;
@@ -125,6 +127,7 @@ header .srchbtn:hover{
     font-size: 50px;
     color: #007aff;
     line-height: 50px;
+    cursor: pointer;
 }
 .focus-btn-left{
     position: absolute;
@@ -139,32 +142,82 @@ header .srchbtn:hover{
     margin-top: -25px;
 }
 .focus-number{
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    right: 45%;
+    bottom: 10px;
+    cursor: pointer;
 }
 .focus-number-list{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: gray;
-    float: left;
     margin-left: 10px;
+    display: inline-block;
 }
 /* 焦点区域
 ---------------------------------------------------------------- */
-.hot{
+/* .hot{
     height: 300px;
-    background-color: red;
+} */
+.hot .contian{
+    height: 302px;
 }
-/* 焦点区域
----------------------------------------------------------------- */
-.floor{
-    height: 300px;
-    background-color:skyblue;
+.hot .left-1{
+    height: 302px;
 }
-/* 焦点区域
+.hot #hot-left-1{
+    background-image: linear-gradient(#51aaeb,#51c42a);
+}
+.hot p{
+    color: #fafafa;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 37px;
+}
+
+/* 楼层区域
 ---------------------------------------------------------------- */
-.footer{
+.floor .contian{
+    height: 340px;
+    margin-top: 44px;
+}
+.floor-nva{
+    margin-bottom: 16px;
+    border-bottom: 2px solid #51c42a;
+    color: #51c42a;
+    font-size: 16px;
+}
+/* 底部导航区域
+---------------------------------------------------------------- */
+footer{
+    background-color: #2f2f2f;
+    margin-top: 40px;
+}
+footer .contian{
     height: 250px;
-    background-color: #2f2f2f
+}
+.nav-top{
+    font-size: 18px;
+    text-align: center;
+}
+.nav-top li{
+    margin-top: 60px;
+    display: inline-block;
+    margin-right: 215px;
+}
+.nav-top li:nth-last-child(1){
+    margin-right: 0px;
+}
+.nav-low li{
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 23px;
+}
+footer p{
+    margin-top: 15px;
+    text-align: center;
+}
+footer .low-nav{
+    text-align: center;
 }
