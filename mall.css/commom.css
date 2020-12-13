@@ -36,6 +36,10 @@ a:hover{
     width: 208px;
     height: 302px;
 }
+.left-1:hover{
+    transition-timing-function: 0.5s;
+    box-shadow: 50px 10px 10px 10px red none;
+}
 .left-1{
     margin-right: 10px;
 }

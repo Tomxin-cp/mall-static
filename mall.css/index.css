@@ -213,9 +213,10 @@ footer .contian{
 .low-nav{
     margin-top: 65px;
     border-top: 1px solid #888888;
+    padding-top: 14px;
+    box-sizing: border-box;
 }
 .low-nav li{
-    margin-top: 80px;
     display: inline-block;
     margin-left: 23px;
     color: #888888;
