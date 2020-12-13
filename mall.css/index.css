@@ -200,6 +200,7 @@ footer .contian{
 .nav-top{
     font-size: 18px;
     text-align: center;
+    color: #ffffff;
 }
 .nav-top li{
     margin-top: 60px;
@@ -209,14 +210,20 @@ footer .contian{
 .nav-top li:nth-last-child(1){
     margin-right: 0px;
 }
-.nav-low li{
+.low-nav{
+    margin-top: 65px;
+    border-top: 1px solid #888888;
+}
+.low-nav li{
     margin-top: 80px;
     display: inline-block;
     margin-left: 23px;
+    color: #888888;
 }
 footer p{
     margin-top: 15px;
     text-align: center;
+    color: #888888;
 }
 footer .low-nav{
     text-align: center;
